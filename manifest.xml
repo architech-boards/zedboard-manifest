@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote
+        name        = "openembedded"
+        fetch       = "git://git.openembedded.org/"
+    />
+    <remote
+        name        = "yoctoproject"
+        fetch       = "git://git.yoctoproject.org/"
+    />
+    <remote
+        name        = "architech-boards"
+        fetch       = "https://github.com/architech-boards/"
+    />
+
+    <project
+        name        = "poky"
+        remote      = "yoctoproject"
+        revision    = "dora"
+    />
+    <project
+        name        = "meta-openembedded"
+        remote      = "openembedded"
+        revision    = "dora"
+    />
+    <project
+        name        = "meta-xilinx"
+        remote      = "yoctoproject"
+        revision    = "dora"
+    />
+</manifest>
