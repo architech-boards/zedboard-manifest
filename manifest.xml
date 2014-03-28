@@ -16,16 +16,16 @@
     <project
         name        = "poky"
         remote      = "yoctoproject"
-        revision    = "dora"
+        revision    = "75bed4086eb83f1d24c31392f3dd54aa5c3679b1"
     />
     <project
         name        = "meta-openembedded"
         remote      = "openembedded"
-        revision    = "dora"
+        revision    = "40e0f371f3eb1628655c484feac0cebf810737b4"
     />
     <project
         name        = "meta-xilinx"
         remote      = "yoctoproject"
-        revision    = "dora"
+        revision    = "cb7329a596a5ab2d1392c1962f9975eeef8e4576"
     />
 </manifest>
