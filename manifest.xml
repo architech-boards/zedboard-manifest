@@ -16,7 +16,7 @@
     <project
         name        = "poky"
         remote      = "yoctoproject"
-        revision    = "75bed4086eb83f1d24c31392f3dd54aa5c3679b1"
+        revision    = "f20e4c0cf6ddb29a1aad6e7b095e1472e81d330c"
     />
     <project
         name        = "meta-openembedded"
@@ -26,6 +26,11 @@
     <project
         name        = "meta-xilinx"
         remote      = "yoctoproject"
-        revision    = "cb7329a596a5ab2d1392c1962f9975eeef8e4576"
+        revision    = "7f759048bb0aeef3c0b3938be81d2bcade7acb7e"
+    />
+    <project
+        name        = "meta-zedboard"
+        remote      = "architech-boards"
+        revision    = "dizzy"
     />
 </manifest>
