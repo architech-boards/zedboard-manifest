@@ -16,12 +16,12 @@
     <project
         name        = "poky"
         remote      = "yoctoproject"
-        revision    = "f20e4c0cf6ddb29a1aad6e7b095e1472e81d330c"
+        revision    = "016d607e23e2f4e0cd3c6c76bebe482651d56e7a"
     />
     <project
         name        = "meta-openembedded"
         remote      = "openembedded"
-        revision    = "40e0f371f3eb1628655c484feac0cebf810737b4"
+        revision    = "6413cdb66acf43059f94d0076ec9b8ad6a475b35"
     />
     <project
         name        = "meta-xilinx"
